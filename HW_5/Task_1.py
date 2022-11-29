@@ -9,8 +9,10 @@
 *
 """
 
+print('Please enter triangle width:')
+N = int(input())
 
-stars = '*****'
-for i in range(0, 5):
+stars = '*' * N
+for i in range(0, N):
     print(stars)
     stars = stars[:-1]

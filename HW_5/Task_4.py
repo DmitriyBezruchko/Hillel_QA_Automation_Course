@@ -8,7 +8,11 @@
  ****
 *****
 """
-arr = [4, 3, 2, 1, 0]
+print('Please enter triangle width:')
+N = int(input())
+
+arr = list(range(N, 0, -1))
+
 stars = '*'
 for i in arr:
     print((' ' * i) + stars)
